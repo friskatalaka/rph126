@@ -1,0 +1,10 @@
+.footer-bg
+    background: url(https://s14.gifyu.com/images/bKBsH.jpg);
+    position: relative;
+    background-size: 100% auto;
+    width: 100%;
+    background-repeat: repeat;
+    background-position: top;
+    padding: 20px 0;
+    color: #fff;
+}
