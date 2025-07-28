@@ -1,10 +1,170 @@
-.footer-bg
-    background: url(https://s14.gifyu.com/images/bKBsH.jpg);
-    position: relative;
-    background-size: 100% auto;
-    width: 100%;
-    background-repeat: repeat;
-    background-position: top;
-    padding: 20px 0;
+.messagebleft-container {
+    transition: all 3s ease;
+    transition-duration: 2s;
+    transition-property: top, right, bottom, left, opacity;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    min-height: 12px!important;
+    background: linear-gradient(rgb(255, 196, 0) 15%, rgb(255, 234, 0) 50%, rgb(255, 196, 0) 85%)!important;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000!important;
+    line-height: 18px;
+    padding: 18px 24px;
+    bottom: -100px;
+    top: -100px;
+    opacity: 0;
+    z-index: 9999;
+    border-radius: 25px!important;
+    border: 2px solid #fbff00!important;
+    box-shadow: inset 0 0 0 1px rgb(255 212 0), inset 0 2px 0 0 rgb(255 167 0), inset 0 0 0 2px rgb(255 237 0), 3px 3px 3px 1px rgb(0 0 0 / 20%)!important;
+}
+.messagebleft-container .action {
+    background: inherit;
+    display: inline-block;
+    font-size: inherit;
+    text-transform: uppercase;
+    color: #4caf50;
+    margin: 0 0 0 24px;
+    padding: 0;
+    min-width: min-content;
+    cursor: pointer;
+}
+@media(min-width:640px) {
+    .messagebleft-container {
+    min-width: 288px;
+    max-width: 568px;
+    display: inline-flex;
+    border-radius: 2px;
+    margin: 24px;
+}
+}@media(max-width:640px) {
+    .messagebleft-container {
+    left: 0;
+    right: 0;
+    width: 100%}
+}.messagebleft-pos.bottom-center {
+    top: auto!important;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.messagebleft-pos.bottom-left {
+    top: auto!important;
+    bottom: 0;
+    left: 0;
+}
+.messagebleft-pos.bottom-right {
+    top: auto!important;
+    bottom: 0;
+    right: 0;
+}
+.messagebleft-pos.top-left {
+    bottom: auto!important;
+    top: 0;
+    left: 0;
+}
+.messagebleft-pos.top-center {
+    bottom: auto!important;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.messagebleft-pos.top-right {
+    bottom: auto!important;
+    top: 0;
+    right: 0;
+}
+@media(max-width:640px) {
+    .messagebleft-pos.bottom-center, .messagebleft-pos.top-center {
+    left: 0;
+    transform: none;
+}
+}.footer-bg ul:nth-child(1) {
+    margin-left: -15px;
+    background: #fff;
+    padding: 15px 0 0 13px!important;
+}
+.messagebleft-container {
+    transition: all 500ms ease;
+    transition-property: top, right, bottom, left, opacity;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    min-height: 14px;
+    background-color: #070b0e;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #fff;
+    line-height: 22px;
+    padding: 18px 24px;
+    bottom: -100px;
+    top: -100px;
+    opacity: 0;
+    z-index: 9999;
+}
+.messagebleft-container .action {
+    background: inherit;
+    display: inline-block;
+    font-size: inherit;
+    text-transform: uppercase;
+    color: #4caf50;
+    margin: 0 0 0 24px;
+    padding: 0;
+    min-width: min-content;
+    cursor: pointer;
+}
+@media(min-width:640px) {
+    .messagebleft-container {
+    min-width: 288px;
+    max-width: 568px;
+    display: inline-flex;
+    border-radius: 2px;
+    margin: 24px;
+}
+}@media(max-width:640px) {
+    .messagebleft-container {
+    left: 0;
+    right: 0;
+    width: 100%}
+}.messagebleft-pos.bottom-center {
+    top: auto!important;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.messagebleft-pos.bottom-left {
+    top: auto!important;
+    bottom: 12.5vh;
+    left: 0;
+}
+.messagebleft-pos.bottom-right {
+    top: auto!important;
+    bottom: 0;
+    right: 0;
+}
+.messagebleft-pos.top-left {
+    bottom: auto!important;
+    top: 0;
+    left: 0;
+}
+.messagebleft-pos.top-center {
+    bottom: auto!important;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.messagebleft-pos.top-right {
+    bottom: auto!important;
+    top: 0;
+    right: 0;
+}
+@media(max-width:640px) {
+    .messagebleft-pos.bottom-center, .messagebleft-pos.top-center {
+    left: 0;
+    transform: none;
+}
 }
